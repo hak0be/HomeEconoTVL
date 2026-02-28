@@ -312,3 +312,66 @@ img {vertical-align: middle;}
     height: 40vh;
   }
 }
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #0b0fbf;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Desktop */
+.navbar li {
+  position: relative;
+}
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbar li a {
+    padding: 15px;
+  }
+
+  .dropdown-menu {
+    position: static;
+    max-height: none;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .slideshow-container {
+    height: 200px;
+  }
+}
+
+.header {
+  padding: 0;
+}
+
+.slideshow-container {
+  width: 100%;
+  height: 320px;        /* normal desktop height */
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;    /* prevents stretching */
+  display: block;
+}
