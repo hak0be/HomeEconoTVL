@@ -28,7 +28,7 @@ body {
 
 .slide-img {
   width: 100%;
-  height: auto;   /* keeps original image ratio */
+  height: 100%;   /* keeps original image ratio */
   display: block;
 }
 
