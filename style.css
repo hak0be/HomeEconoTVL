@@ -295,8 +295,9 @@ img {vertical-align: middle;}
 
 .slideshow-container {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 350px;   /* choose any height you want */
   overflow: hidden;
+  position: relative;
 }
 
 .slide-img {
