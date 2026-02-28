@@ -5,8 +5,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  position: relative;
-  margin: auto;
+  position: absolute;
+  margin: 0px;
 }
 
 .active {
